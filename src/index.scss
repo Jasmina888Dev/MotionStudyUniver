@@ -1,16 +1,21 @@
-*{
+* {
   margin: 0;
-   font-family: "Montserrat", sans-serif;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
-.container{
+
+body {
+  background: #fdfdfd;
+}
+
+.container {
   width: 90%;
   margin: 0 auto;
 }
-a{
+a {
   text-decoration: none;
-  
 }
+
 body.modal-open {
   overflow: hidden;
 }

@@ -5,6 +5,7 @@ import Header from './components/Layout/Header/Header'
 import Main from './components/Main/Main'
 import { useContext } from 'react'
 import { MotionStudyContext } from './context'
+import Footer from './components/Layout/Footer/Footer'
 
 function App() {
   const {modal} = useContext(MotionStudyContext)
@@ -21,6 +22,7 @@ function App() {
 <Routes>
 {router.map((el) => <Route path={el.path} element={el.element}/>)}
 </Routes>
+<Footer />
    </>
   )
 }
