@@ -19,3 +19,13 @@ a {
 body.modal-open {
   overflow: hidden;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  .footer {
+    margin-top: auto;
+  }
+}

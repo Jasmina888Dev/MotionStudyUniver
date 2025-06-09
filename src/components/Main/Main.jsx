@@ -6,6 +6,7 @@ import { MotionStudyContext } from '../../context';
 import Header from '../Layout/Header/Header';
 import Exams from '../Pages/Exams/Exams';
 import Video from '../Pages/Video/Video';
+import Contact from '../Pages/Contact/Contact';
 
 const Main = () => {
     const {modal} = useContext(MotionStudyContext)
@@ -20,6 +21,7 @@ const Main = () => {
         <Best />
         <Exams />
         <Video />
+        <Contact />
         </>
        }
     </div>

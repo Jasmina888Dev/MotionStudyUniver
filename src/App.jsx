@@ -17,13 +17,13 @@ function App() {
     }
   ]
   return (
-   <>
+   <div className='app'>
  {!modal && <Header />}
 <Routes>
 {router.map((el) => <Route path={el.path} element={el.element}/>)}
 </Routes>
 <Footer />
-   </>
+   </div>
   )
 }
 

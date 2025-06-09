@@ -53,16 +53,18 @@ const Video = () => {
         </div>
         <div className="video--content">
           {videos.map((video) => (
-            <iframe
-              width="660"
-              height="315"
-              src="https://www.youtube.com/embed/UDgK_Ecssck?si=CYWk27Kn2nmSqUXB"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div className="video--content__iframe">
+              <iframe
+                width="550"
+                height="340"
+                src="https://www.youtube.com/embed/XR4kn1npSYA?si=9A4xyLLB0C2gZ0OA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
           ))}
         </div>
       </div>
