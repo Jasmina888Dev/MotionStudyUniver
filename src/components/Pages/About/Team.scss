@@ -1,0 +1,51 @@
+#team {
+  padding-bottom: 80px;
+  .team {
+    font-family: sans-serif;
+    &--block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 50px;
+      &__cards {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--card {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: column;
+          gap: 20px;
+          width: 315px;
+          height: 419px;
+          border-radius: 5px;
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+          img {
+            width: 100%;
+          }
+          h2 {
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-transform: capitalize;
+            color: rgba(0, 0, 0, 1);
+          }
+          p {
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-transform: capitalize;
+            color: rgba(123, 106, 255, 0.5);
+          }
+        }
+      }
+    }
+  }
+}
