@@ -16,7 +16,7 @@ const Team = () => {
   }, []);
   return (
     <div id="team">
-      <div className="container">
+      <div className="container"> 
         <div className="team">
           {team.map((el) => (
             <div className="team--block" key={el.id}>

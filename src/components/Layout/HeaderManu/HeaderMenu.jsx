@@ -15,6 +15,7 @@ const HeaderMenu = () => {
     { name: "About Us", link: "/about-us" },
     { name: "Study Abroad", link: "/study-abroad" },
     { name: "Contacts", link: "/contacts" },
+    { name: "Univer", link: "/univer" },
   ];
   return (
     <>

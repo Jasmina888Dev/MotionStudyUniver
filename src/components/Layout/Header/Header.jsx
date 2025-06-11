@@ -12,7 +12,8 @@ const menuItems = [
   { name: "Home", link: "/" },
   { name: "About Us", link: "/about-us" },
   { name: "Study Abroad", link: "/study-abroad" },
-  { name: "Contacts", link: "/contacts" }
+  { name: "Contacts", link: "/contacts" },
+  { name: "Univer", link: "/univer" }
 ];
   useEffect(() => {
   if (modal) {
