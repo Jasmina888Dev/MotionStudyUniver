@@ -363,3 +363,16 @@
     }
   }
 }
+
+@media (max-width: 390px) {
+  #UniversityDetails--bottom__Description {
+    padding: 20px 10px;
+
+    .UniversityDetails--bottom__Description {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      
+    }
+  }
+}
